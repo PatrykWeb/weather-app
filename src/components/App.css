@@ -1,0 +1,39 @@
+.App input, .App button {
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: rgba(240, 248, 255, 0);
+    border: 1px solid black;
+}
+.App button:hover {
+    background-color: black;
+    color: white;
+    animation-name: clickButton;
+    animation-timing-function: ease-in, linear;
+    animation-duration: 2.5s, 500ms;
+    animation-delay: 0s 5s;
+}
+@keyframes clickButton {
+    0% {
+        background-color: white;
+    
+    }
+    25% {
+        background-color: black;
+        
+    }
+    50% {
+        background-color: black;
+        
+    }
+    75% {
+        background-color: black;
+        
+    }
+    100% {
+        background-color: black;
+        
+    }
+}
+.App {
+    margin-left: 45em;
+}
